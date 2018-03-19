@@ -10,7 +10,7 @@
       </div>
       <div class="navbar-menu" id="navItems"  :class="{'is-active': navIsActive}">
         <div class="navbar-start">
-          <a class="navbar-item" href="/">HOME</a>
+          <a class="navbar-item" href="/brotorrent">HOME</a>
           <!-- <a class="navbar-item" href="/mytorrents">MY DOWNLOADS</a> -->
         </div>
       </div>
