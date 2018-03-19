@@ -16,7 +16,8 @@ app.use(express.static('./'));
 torrentcontroller(app, io);
 
 //listen to port
-var server = app.listen(3000, function(){
+var port = 3000||PROCESS.ENV.PORT;
+var server = app.listen(port, function(){
   console.log('PORT 3000 ACTIVATED');
 });
 
