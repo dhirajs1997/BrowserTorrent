@@ -8,7 +8,8 @@
         <p>
           This program is <strong>open source</strong>.<a href="https://github.com/dhirajs1997/BrowserTorrent" target="_blank"> Help us improve this program on Github.</a>
         </p>
-        <p>Donate us on Ethereum at : <a>0x87B560DbE9958839995f33B773cd389B666e11fD</a></p>
+        <p id="donate">Donate us on Ethereum at</p>
+        <p id="donateLink"><a>0x87B560DbE9958839995f33B773cd389B666e11fD</a></p>
       </div>
     </div>
   </footer>
@@ -24,5 +25,11 @@ export default {
   footer .content{
     margin: 10px 0 10px 0;
     padding: 10px;
+  }
+  #donate{
+    margin-bottom: 0;
+  }
+  #donateLink{
+    font-size: 12px;
   }
 </style>
